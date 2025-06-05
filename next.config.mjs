@@ -8,8 +8,8 @@ const nextConfig = {
     return config;
   },
   experimental: {
-    serverMinification: false, // the server minification unfortunately breaks the selector class names
-  },
-};  
+    serverMinification: false // the server minification unfortunately breaks the selector class names
+  }
+};
 
 export default nextConfig;
